@@ -22,6 +22,7 @@ public  final class Util {
         }else{
             throw new IllegalArgumentException("Invalid type");
         }
+        System.out.println("I AM A CHANGE MEANWHILE");
     }
     private static void SelectFromCustomSelector(WebElement selector , String visibleText){
         selector.click();

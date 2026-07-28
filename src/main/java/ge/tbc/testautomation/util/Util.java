@@ -22,7 +22,6 @@ public  final class Util {
         }else{
             throw new IllegalArgumentException("Invalid type");
         }
-        System.out.println("'I AM A FIX");
     }
     private static void SelectFromCustomSelector(WebElement selector , String visibleText){
         selector.click();
